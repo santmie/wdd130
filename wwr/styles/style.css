@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 body{
     background-color: #fcfbfb;
+    font-family: Helvetica, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #8ac8e5;
@@ -12,6 +18,7 @@ nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #023047;
@@ -28,6 +35,12 @@ main section{
 }
 .home-title{
     color:#023047;
+    font-family: 'Kalam', Georgia, serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
 }
 h4{
     color: #023047;
@@ -35,11 +48,16 @@ h4{
 #background{
     height: 725px;
     background-color: gray;
+    margin-bottom: 100px;
 }
 .book, .join{
     background-color: #8ac8e5;
     color: #023047;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #e07800;
@@ -47,16 +65,24 @@ h4{
 }
 .msg{
     background-color: #023047;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 .msg h2{
     color: white;
+    font-family: 'Roboto', Tahoma, sans-serif;
 }
 .msg p{
-    color: white
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;   
 }
 footer{
     background-color: #023047;
-    color: #8ac8e5
+    color: #8ac8e5;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #8ac8e5;
@@ -74,6 +100,24 @@ footer p:hover{
 .logo, .icon{
     width: 80px;
 }
+.icon{
+    padding-top: 10px;
+}
 #hero-img{
     width: 100%;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #023047  ;
+}
+main section img{
+    box-sizing: border-box;
 }
