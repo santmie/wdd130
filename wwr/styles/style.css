@@ -195,15 +195,20 @@ footer .social img{
 .salmon, .deso, .canyon{
     font-family: 'Kalam', Georgia, serif;
     color: #023047;
+    padding-left: 50px;
 }
 .rivers-salmon, .rivers-deso{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-bottom: 100px;
 }
 .rivers-canyon{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .salmon_description, .deso_description, .canyon_description{
     grid-column: 1/3;
