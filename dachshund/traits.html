@@ -21,78 +21,93 @@
             </nav>
         </header>
         <main>
-        <h1 class="about-title">Smooth, Long-Haired and Wire-Haired Dachshunds Traits</h1>
-            <div class="about">
-                <section class="smooth">
-                    <img class="smooth-img" src="images/sleeping.jpg" alt="Tmie at the beach">
-                    <p>Smooth</p>
-                    </section>
-                <section class="long-haired">
-                    <img class="long-haired-img" src="images/long-haired.jpeg" alt="Image by Binyamin Mellish via pexels.com">
-                    <p>Long-Haired</p>
-                    </section>
-                <section class="wire-haired">
-                    <img class="wire-haired-img" src="images/wire-haired.jpeg" alt="Image by Andrzej Dworakowski via pexels.com">
-                    <p>Wire-Haired</p>
-                    <section>
-                <p>
-                    The traits of Smooth, Long, and Wire-Haired Dachshunds can vary slightly depending on their coat types, even though they all share basic personality features typical of the breed.
-                    <br><br>Individual dachshunds may exhibit different temperaments from those described below, independent of coat type. A dachshund's personality is also significantly influenced by factors including genetics, socialization, and upbringing. Spending time with many dachshunds will help you choose which personality best fits your tastes and way of life if you're thinking about getting one.
-                </p>
+            <h1 class="trais-title">Smooth, Long-Haired and Wire-Haired Dachshunds Traits</h1>
+            <!-- The grid: four columns -->
+            <div class="row">
+                <div class="smooth">
+                <img class="img-trait" src="images/sleeping.jpg" alt="Smooth" onclick="myFunction(this);">
+                <p>Smooth</p>
+                </div>
+                <div class="long-haired">
+                <img class="img-trait" src="images/long-haired.jpeg" alt="Long-Haired (Image by Binyamin Mellish via pexels.com)" onclick="myFunction(this);">
+                <p>Long-Haired</p>
+                </div>
+                <div class="wire-haired">
+                <img class="img-trait" src="images/wire-haired.jpeg" alt="Wire-Haired (Image by Andrzej Dworakowski via pexels.com)" onclick="myFunction(this);">
+                <p>Wire-Haired</p>
+                </div>
             </div>
+            
+            <!-- The expanding image container -->
+            <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            
+                <!-- Expanded image -->
+                <img id="expandedImg" src="images/sleeping.jpg" alt="Dachshund images" style="width:80%">
+            
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div>
+            <p class = "msg-traits">
+                The traits of Smooth, Long, and Wire-Haired Dachshunds can vary slightly depending on their coat types, even though they all share basic personality features typical of the breed.
+                <br><br>Individual dachshunds may exhibit different temperaments from those described below, independent of coat type. A dachshund's personality is also significantly influenced by factors including genetics, socialization, and upbringing. Spending time with many dachshunds will help you choose which personality best fits your tastes and way of life if you're thinking about getting one.
+            </p>
+            
             <div class="types-trait">
                 <section class="smooth-trait">
-                    <h2>Smooth Haired Dachshund</h2>
+                    <h2>Smooth Haired <br>Dachshund</h2>
                     <p>This is the most common Dachshund coat. Their smooth fur increases their ability to chase their prey quickly, since they were designed as hunting dogs.
                         <p>
-                    <p>
-                        •	Intelligent
-                        • 	Loyal
-                        •	Playful
-                        •	Territorial
-                        •	Chasers
-                        •	Greedy
-                        •	Courageous
-                        •	Cuddly
-                        •	Loving
-                        •	Highly devoted to their owners
+                    </section>
+                    <p class = "smooth-data">
+                        <br>•	Intelligent
+                        <br>• 	Loyal
+                        <br>•	Playful
+                        <br>•	Territorial
+                        <br>•	Chasers
+                        <br>•	Greedy
+                        <br>•	Courageous
+                        <br>•	Cuddly
+                        <br>•	Loving
+                        <br>•	Highly devoted to their owners
                     </p>
-                </section>
+                
                 <section class="long-trait">
-                    <h2>Long-Haired Dachshund</h2>
+                    <h2>Long-Haired <br>Dachshund</h2>
                     <p>They are able to stay warm for longer periods of time while hunting outdoors in cold weather because of their thicker coats, which help them retain their body heat.
                         <p>
-                    <p>
-                        •	Loyal but not always with the same person.
-                        •	Slightly less noisy than Wire and Smooth-Haired
-                        •	Stubborn
-                        •	Are not very cuddly
-                        •	Sweet-natured
-                        •	Most burrow
-                        •	Affectionate
-                        •	Calm
-                        •	Gentle
-                        •	Affectionate
-
+                    </section>
+                <p class = "long-data">
+                        <br>•	Loyal but not always with the same person.
+                        <br>•	Slightly less noisy than Wire and Smooth-Haired
+                        <br>•	Stubborn
+                        <br>•	Are not very cuddly
+                        <br>•	Sweet-natured
+                        <br>•	Most burrow
+                        <br>•	Affectionate
+                        <br>•	Calm
+                        <br>•	Gentle
+                        <br>•	Affectionate
                     </p>
-                </section>
                 <section class="wired-trait">
-                    <h2>Wire-Haired Dachshund</h2>
+                    <h2>Wire-Haired <br>Dachshund</h2>
                     <p>Their hair gives them a level of protection from thorns and other vegetation when they are out hunting for prey.
                          <p>
-                    <p>
-                        •	Noisier
-                        •	Slightly more aggressive
-                        •	Feisty
-                        •	Prone to feeling anxious
-                        •	Protective
-                        •	Aggressive
-                        •	Jealous
-                        •	The funniest
-                        •	Not quite as cuddly as Smooth-Haired
-                        •	Mischievous
+                    </section>
+                <p class = "wired-data">
+                        <br>•	Noisier
+                        <br>•	Slightly more aggressive
+                        <br>•	Feisty
+                        <br>•	Prone to feeling anxious
+                        <br>•	Protective
+                        <br>•	Aggressive
+                        <br>•	Jealous
+                        <br>•	The funniest
+                        <br>•	Not quite as cuddly as Smooth-Haired
+                        <br>•	Mischievous
                     </p>
-                </section>
+                
             </div>
         </main>
         <footer>
@@ -112,5 +127,20 @@
             </div>
         </footer>
     </div>
-</body>                 
+    <script>
+        function myFunction(imgs) {
+            // Get the expanded image
+            var expandImg = document.getElementById("expandedImg");
+            // Get the image text
+            var imgText = document.getElementById("imgtext");
+            // Use the same src in the expanded image as the image being clicked on from the grid
+            expandImg.src = imgs.src;
+            // Use the value of the alt attribute of the clickable image as text inside the expanded image
+            imgText.innerHTML = imgs.alt;
+            // Show the container element (hidden with CSS)
+            expandImg.parentElement.style.display = "block";
+          }
+    </script>  
+</body>   
+              
 </html>

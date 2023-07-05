@@ -233,3 +233,167 @@ footer p:hover{
 footer .social img{
     padding-top: 15px;
 }
+
+
+  /* css for traits page */
+
+.trais-title{
+    text-align: center;
+    font-family: "Indie Flower","Trebuchet MS", sans-serif;
+    color:#2660A4;
+    font-weight: bolder;
+    margin-top: 75px;
+    text-shadow: 1px 1px 1px #F19953, 2px 2px 1px #F19953;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+  }
+.smooth{
+    grid-column: 1/2;
+}
+.long-haired{
+    grid-column: 2/3;
+}
+.wire-haired{
+    grid-column: 3/4;
+}
+.img-trait{
+    border: 10px solid #F19953;
+    border-radius: 50% ;  
+    box-shadow: 5px 5px 20px #6f7364;
+}
+.smooth, .long-haired, .wire-haired{
+    margin: auto;
+    padding: 20px;
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+  /* Style the images inside the grid */
+  .row img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .row img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+    position: relative;
+    display: none;
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    width: 80%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 15px;
+    left: 15px;
+    background-color:#2660A4;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 3px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    margin-right: 20%;
+    color:#2660A4;
+    background-color: #EDF7F6;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  /* slideshow ends here */
+  
+
+
+.msg-traits{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #C47335;
+    font-family: "PT Sans", Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 2.0em;
+
+}
+.types-trait{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    background-color: rgba(196, 115, 53, 0.3);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color:  #2660A4;
+    font-family: "Indie Flower","Trebuchet MS", sans-serif;
+}
+.smooth-trait{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.long-trait{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.wired-trait{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.smooth-data{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.long-data{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.wired-data{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.smooth-trait, .long-trait, .wired-trait,.smooth-data, .long-data, .wired-data{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    line-height: 2.0em;
+    margin-top: 0%;
+    font-family: "PT Sans", Helvetica, sans-serif;
+}
+
