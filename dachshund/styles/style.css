@@ -427,6 +427,7 @@ h2{
     justify-content:end;
     padding-left: 20px;
     padding-right: 50px;
+    margin-right: 50px;
 }
 .h2a{
     font-size: 40px;
@@ -481,13 +482,14 @@ h2{
     margin-bottom: 0%;
     padding-left: 50px;
     font-size: 30px;
+    padding-right: 50px;
 }
 .smooth-img2{
     grid-column: 3/4;
-    justify-self: center;
+    margin-left: 50px;
     border: 10px solid rgba(38,96,164,0.4) ;
     box-shadow: 5px 5px 20px #2660A4;
-    border-radius: 20px ;    
+    border-radius: 20px ; 
 }
 .smooth-img2:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
