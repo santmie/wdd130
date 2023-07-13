@@ -511,6 +511,7 @@ h2{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 .h2c{
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     padding-left: 50px;
